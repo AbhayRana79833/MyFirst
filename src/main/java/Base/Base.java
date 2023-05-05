@@ -30,7 +30,7 @@ public class Base {
 	public static final Logger logger = LogManager.getLogger(Base.class);
 
 	public Base() {
-		PropertyConfigurator.configure(".\\Resources\\Log4j.properties");
+		PropertyConfigurator.configure("/Com.Grooming.Framework/Resources/Log4j.properties");
 	}
 
 	@BeforeClass

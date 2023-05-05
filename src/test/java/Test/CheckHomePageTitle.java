@@ -32,7 +32,7 @@ public class CheckHomePageTitle extends Base{
 	        	test.log(LogStatus.FAIL, "Expected title is " + data + " but got " + data );
 	        	logger.info("Wrong Page Open");
 	        }
-		 Assert.assertEquals(data, "Onlining Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
+		 Assert.assertEquals(data, "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
 	}
 
 }
